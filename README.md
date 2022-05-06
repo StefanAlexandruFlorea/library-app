@@ -1,6 +1,6 @@
- PROIECT BIBLIOTECA
+###PROIECT BIBLIOTECA
 
-Proiectul are ca scop gestionarea activităților zilnice dintr-o singură biblioteca. Din această bibliotecă se pot împrumuta o varietate de cărti. Orice carte are un cod unic, un titlu, un autor, un gen, un număr de pagini. De asemenea, se știe dacă o carte este sau nu disponibilă( este momentan împrumutata sau nu de altcineva). Există mai mulți clienți, identificați prin cod, nume, număr de cărți împrumutate de-a lungul timpului, o dată de retur pentru cartea împrumutată curent( de ex un string sub forma zi/lună/an); dacă nu există, acest câmp va fi gol). Un client poate să împrumute o singură carte la un anumit moment. Clienții acestei biblioteci sunt de două tipuri: studenti, ce au în plus definită facultatea și anul de studiu și profesori, ce au în plus o materie predată. Nu pot să existe doi clienți cu același nume. 
+#Proiectul are ca scop gestionarea activităților zilnice dintr-o singură biblioteca. Din această bibliotecă se pot împrumuta o varietate de cărti. Orice carte are un cod unic, un titlu, un autor, un gen, un număr de pagini. De asemenea, se știe dacă o carte este sau nu disponibilă( este momentan împrumutata sau nu de altcineva). Există mai mulți clienți, identificați prin cod, nume, număr de cărți împrumutate de-a lungul timpului, o dată de retur pentru cartea împrumutată curent( de ex un string sub forma zi/lună/an); dacă nu există, acest câmp va fi gol). Un client poate să împrumute o singură carte la un anumit moment. Clienții acestei biblioteci sunt de două tipuri: studenti, ce au în plus definită facultatea și anul de studiu și profesori, ce au în plus o materie predată. Nu pot să existe doi clienți cu același nume. 
 Se cere realizarea unei aplicații care are urmatoarele cazuri de utilizare: 
 1. adaugaStudent – adaugă un student în evidența clienților. Se va arunca excepția NumeDejaExistentException dacă există deja un client al bibliotecii cu același nume 
 2. adaugaProfesor - adaugă un profesor în evidența clienților. Se va arunca excepția NumeDejaExistentException dacă există deja un client al bibliotecii cu același nume 
@@ -42,16 +42,15 @@ comenzi:
 17. “arePenalitati <<nume>>” – unde <<nume>> reprezintă numele clientului pentru care se face verificarea 
 18. “exit”  
 
-Suplimentar: 
+###Suplimentar: 
 1. Se va realiza un fir de execuție care va rula în fundal și va afișa o dată la 50 de secunde numărul 
-
 cartilor din biblioteca  
 2. Se va implementa un caz de utilizare verificareIstoricCarte care va afisa câți proprietari a mai avut înainte cartea respectiva. Puteți să și afisați care au fost aceștia, în funcție de modaliatea de rezolvare pe care o veți aborda. 
 
-Despre implementare: 
-Se va respecta principiul encapsulării claselor  
-Se va folosi Singleton Pattern unde este nevoie 
-Se vor folosi expresii lambda acolo unde este posibil  
-Se va implementa equals si toString in clasele unde este nevoie  
-Design-ul claselor va fi în conformitate cu cerința 
-Se vor respecta principiile OOP și standardele de scriere a codului;
+###Despre implementare: 
+* Se va respecta principiul encapsulării claselor  
+* Se va folosi Singleton Pattern unde este nevoie 
+* Se vor folosi expresii lambda acolo unde este posibil  
+* Se va implementa equals si toString in clasele unde este nevoie  
+* Design-ul claselor va fi în conformitate cu cerința 
+* Se vor respecta principiile OOP și standardele de scriere a codului;
